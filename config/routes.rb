@@ -1,4 +1,16 @@
 EvoTrial::Application.routes.draw do
+  match 'user/' => 'user#index'
+
+  get "user/index"
+
+  get "user/login"
+
+  get "user/logout"
+
+  get "user/change_password"
+
+  get "user/create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

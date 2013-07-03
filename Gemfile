@@ -7,11 +7,10 @@ gem 'rails', '3.2.13'
 
 # gem 'sqlite3'
 group :development do
-  gem 'sqlite3'
+  gem 'mysql2'
 end
 group :production do
-  gem 'pg'
-  gem 'rails\_12factor'
+  gem 'mysql2'
 end
 
 # Gems used only for assets and not required
